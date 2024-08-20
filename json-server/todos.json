@@ -1,0 +1,112 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "task": "study",
+      "description": "Maths practice",
+      "status": false
+    },
+    {
+      "id": "2",
+      "task": "exercise",
+      "description": "Morning workout",
+      "status": true
+    },
+    {
+      "id": "3",
+      "task": "shopping",
+      "description": "Buy groceries",
+      "status": false
+    },
+    {
+      "id": "4",
+      "task": "cleaning",
+      "description": "Clean the house",
+      "status": true
+    },
+    {
+      "id": "6",
+      "task": "coding",
+      "description": "Work on the project",
+      "status": true
+    },
+    {
+      "id": "7",
+      "task": "gardening",
+      "description": "Water the plants",
+      "status": false
+    },
+    {
+      "id": "8",
+      "task": "cooking",
+      "description": "Prepare dinner",
+      "status": true
+    },
+    {
+      "id": "9",
+      "task": "writing",
+      "description": "Write blog post",
+      "status": false
+    },
+    {
+      "id": "10",
+      "task": "emails",
+      "description": "Respond to emails",
+      "status": true
+    },
+    {
+      "id": "11",
+      "task": "planning",
+      "description": "Plan the weekend",
+      "status": true
+    },
+    {
+      "id": "12",
+      "task": "meeting",
+      "description": "Attend team meeting",
+      "status": true
+    },
+    {
+      "id": "13",
+      "task": "shopping",
+      "description": "Buy new clothes",
+      "status": false
+    },
+    {
+      "id": "14",
+      "task": "exercise",
+      "description": "Evening jog",
+      "status": true
+    },
+    {
+      "id": "15",
+      "task": "study",
+      "description": "Review for exam",
+      "status": false
+    },
+    {
+      "id": "16",
+      "task": "reading",
+      "description": "Read tech articles",
+      "status": true
+    },
+    {
+      "id": "17",
+      "task": "organizing",
+      "description": "Organize workspace",
+      "status": false
+    },
+    {
+      "id": "19",
+      "task": "cleaning",
+      "description": "Clean the garage",
+      "status": false
+    },
+    {
+      "id": "20",
+      "task": "exercise",
+      "description": "Do yoga",
+      "status": true
+    }
+  ]
+}

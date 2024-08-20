@@ -1,0 +1,22 @@
+<div class="task-list">
+  <div *ngIf="taskList.length === 0">
+    <p>No tasks today</p>
+  </div>
+  <div *ngFor="let task of taskList">
+    <p>&nbsp;&nbsp;<strong>Task:</strong> {{ task.task }}</p>
+    <p>&nbsp;&nbsp;<strong>Description:</strong> {{ task.description }}</p>
+    <p>
+      <mat-checkbox [checked]="task.status" (change)="toggleStatus(task)">
+      </mat-checkbox>
+      <strong>Status:</strong> {{ task.status ? 'Completed' : 'Incomplete' }}
+    </p>
+
+    &nbsp;&nbsp;<button (click)="openUpdateDialog(task)" mat-raised-button color="primary">
+      Update
+    </button>
+    <button (click)="removeTask(task.id)" mat-raised-button color="warn">
+      Remove
+    </button>
+    <hr />
+  </div>
+</div>

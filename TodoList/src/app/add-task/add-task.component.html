@@ -1,0 +1,22 @@
+<div class="form">
+  <form class="example-form" [formGroup]="taskform" (ngSubmit)="addTask()">
+    <mat-form-field class="example-full-width">
+      <mat-label>Add Task</mat-label>
+      <input matInput placeholder="Ex. Swimming" formControlName="task">
+      <span style="color: red;"
+        *ngIf="taskform.get('task')?.invalid && taskform.get('task')?.touched">Please
+        Enter the Task</span>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Description</mat-label>
+      <input matInput placeholder="Ex. Swimming practice"
+        formControlName="desc">
+      <span style="color: red;"
+        *ngIf="taskform.get('desc')?.invalid && taskform.get('desc')?.touched">Please
+        Enter the Description</span>
+    </mat-form-field>
+
+    <button type="submit" mat-raised-button color="primary">Add Task</button>
+  </form>
+</div>

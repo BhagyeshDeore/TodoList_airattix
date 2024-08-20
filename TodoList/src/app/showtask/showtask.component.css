@@ -1,0 +1,57 @@
+.task-list {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.task-list div {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.task-list div:hover {
+  background-color: #f1f1f1;
+}
+
+.task-list p {
+  margin: 5px 0;
+}
+
+.task-list hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+.task-list p strong {
+  color: #333;
+}
+
+.task-list div:last-child {
+  margin-bottom: 0;
+}
+
+.no-tasks-message {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  padding: 20px;
+  border: 1px dashed #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.mat-checkbox {
+  margin-right: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
