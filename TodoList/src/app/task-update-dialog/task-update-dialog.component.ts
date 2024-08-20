@@ -14,7 +14,6 @@ export class TaskUpdateDialogComponent {
     public dialogRef: MatDialogRef<TaskUpdateDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any
   ) {
-    // Initialize the form with the data received from the dialog open
     this.taskForm = new FormGroup({
       task: new FormControl(data.task, [Validators.required]),
       desc: new FormControl(data.description, [Validators.required])

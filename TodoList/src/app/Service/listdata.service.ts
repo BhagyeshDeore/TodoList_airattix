@@ -37,13 +37,13 @@ export class ListdataService {
     this.http.post<Task>(this.apiUrl, task).subscribe({
       next: (newTask) =>{ 
         console.log("addTask()--postService :" , newTask);
-        const currentTasks = this.taskListSource.getValue(); // Access current tasks
+        const currentTasks = this.taskListSource.getValue(); 
         
         console.log('currentTasks:', currentTasks);
         console.log('Is Array:', Array.isArray(currentTasks));
   
         if (Array.isArray(currentTasks)) {
-          this.taskListSource.next([...currentTasks, newTask]); // Update the BehaviorSubject
+          this.taskListSource.next([...currentTasks, newTask]); 
         } else {
           console.error('currentTasks is not an array');
         }
